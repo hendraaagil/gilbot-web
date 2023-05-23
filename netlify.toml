@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "/chat"
+  to = "https://wa.me/6285163036290?text=Halo"
+  status = 301
+
+[[redirects]]
+  from = "/source"
+  to = "https://github.com/hendraaagil/gilbot-web"
+  status = 301
