@@ -1,6 +1,6 @@
 const credits = [
   { name: 'github.com/lakuapik/jadwalsholatorg', link: 'https://github.com/lakuapik/jadwalsholatorg' },
-  { name: 'cataas.com', link: 'https://cataas.com/' },
+  { name: 'thecatapi', link: 'https://thecatapi.com/' },
   {
     name: 'candaan-api.vercel.app',
     link: 'https://candaan-api.vercel.app/',
