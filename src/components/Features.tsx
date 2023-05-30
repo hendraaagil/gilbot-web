@@ -7,6 +7,7 @@ const commands = [
   { name: 'receh', description: 'minta receh bang' },
   { name: 'stiker', description: 'membuat stiker dari gambar / gif / video' },
   { name: 'qr', description: 'membuat QR dari teks / link' },
+  { name: 'tiktok', description: 'download video TikTok tanpa watermark' },
   { name: 'rangkum', description: 'merangkum video YouTube ke dalam teks bahasa inggris' },
   { name: 'mahasiswa', description: 'cari data mahasiswa berdasarkan nama' },
   { name: 'bagikan', description: 'berikan link bot ini kepada yang membutuhkan' },

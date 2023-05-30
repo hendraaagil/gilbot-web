@@ -1,8 +1,12 @@
 const credits = [
-  { name: 'github.com/lakuapik/jadwalsholatorg', link: 'https://github.com/lakuapik/jadwalsholatorg' },
+  {
+    name: 'TiklyDown API',
+    link: 'https://api.tiklydown.me/',
+  },
+  { name: 'jadwalsholatorg', link: 'https://github.com/lakuapik/jadwalsholatorg' },
   { name: 'thecatapi', link: 'https://thecatapi.com/' },
   {
-    name: 'candaan-api.vercel.app',
+    name: 'candaan-api',
     link: 'https://candaan-api.vercel.app/',
   },
   {
@@ -10,7 +14,7 @@ const credits = [
     link: 'https://www.summarize.tech/',
   },
   {
-    name: 'api-frontend.kemdikbud.go.id/hit_mhs',
+    name: 'api-frontend.kemdikbud',
     link: 'https://api-frontend.kemdikbud.go.id/hit_mhs/%7Bnama_mahasiswa%7D',
   },
 ]
