@@ -1,6 +1,7 @@
 const commands = [
   { name: 'menu', description: 'menampilkan daftar perintah bot' },
   { name: 'ping', description: 'ping bot' },
+  { name: 'hitung', description: 'menghitung operasi matematika sederhana' },
   { name: 'sholat', description: 'cari jadwal sholat berdasarkan lokasi' },
   { name: 'kucing', description: 'minta gambar kucing' },
   { name: 'receh', description: 'minta receh bang' },
@@ -8,6 +9,7 @@ const commands = [
   { name: 'qr', description: 'membuat QR dari teks / link' },
   { name: 'rangkum', description: 'merangkum video YouTube ke dalam teks bahasa inggris' },
   { name: 'mahasiswa', description: 'cari data mahasiswa berdasarkan nama' },
+  { name: 'bagikan', description: 'berikan link bot ini kepada yang membutuhkan' },
   { name: 'tentang', description: 'menampilkan informasi pembuat bot' },
 ]
 
