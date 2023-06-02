@@ -3,6 +3,10 @@ const credits = [
     name: 'TiklyDown API',
     link: 'https://api.tiklydown.me/',
   },
+  {
+    name: 'KyokoAPI',
+    link: 'https://kyoko.rei.my.id/',
+  },
   { name: 'jadwalsholatorg', link: 'https://github.com/lakuapik/jadwalsholatorg' },
   { name: 'thecatapi', link: 'https://thecatapi.com/' },
   {

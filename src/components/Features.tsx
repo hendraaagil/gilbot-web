@@ -1,10 +1,11 @@
 const commands = [
   { name: 'menu', description: 'menampilkan daftar perintah bot' },
   { name: 'ping', description: 'ping bot' },
-  { name: 'hitung', description: 'menghitung operasi matematika sederhana' },
-  { name: 'sholat', description: 'cari jadwal sholat berdasarkan lokasi' },
   { name: 'kucing', description: 'minta gambar kucing' },
+  { name: 'quote', description: 'minta quote bang' },
   { name: 'receh', description: 'minta receh bang' },
+  { name: 'sholat', description: 'cari jadwal sholat berdasarkan lokasi' },
+  { name: 'hitung', description: 'menghitung operasi matematika sederhana' },
   { name: 'stiker', description: 'membuat stiker dari gambar / gif / video' },
   { name: 'qr', description: 'membuat QR dari teks / link' },
   { name: 'tiktok', description: 'download video TikTok tanpa watermark' },
