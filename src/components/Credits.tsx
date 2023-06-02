@@ -1,26 +1,11 @@
 const credits = [
-  {
-    name: 'TiklyDown API',
-    link: 'https://api.tiklydown.me/',
-  },
-  {
-    name: 'KyokoAPI',
-    link: 'https://kyoko.rei.my.id/',
-  },
+  { name: 'TiklyDown API', link: 'https://api.tiklydown.me/' },
+  { name: 'The Cat API', link: 'https://thecatapi.com/' },
+  { name: 'Candaan API', link: 'https://candaan-api.vercel.app/' },
+  { name: 'KyokoAPI', link: 'https://kyoko.rei.my.id/' },
   { name: 'jadwalsholatorg', link: 'https://github.com/lakuapik/jadwalsholatorg' },
-  { name: 'thecatapi', link: 'https://thecatapi.com/' },
-  {
-    name: 'candaan-api',
-    link: 'https://candaan-api.vercel.app/',
-  },
-  {
-    name: 'summarize.tech',
-    link: 'https://www.summarize.tech/',
-  },
-  {
-    name: 'api-frontend.kemdikbud',
-    link: 'https://api-frontend.kemdikbud.go.id/hit_mhs/%7Bnama_mahasiswa%7D',
-  },
+  { name: 'summarize.tech', link: 'https://www.summarize.tech/' },
+  { name: 'api-frontend.kemdikbud', link: 'https://api-frontend.kemdikbud.go.id/hit_mhs/%7Bnama_mahasiswa%7D' },
 ]
 
 export const Credits = () => {
