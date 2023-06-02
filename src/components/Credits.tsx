@@ -16,7 +16,7 @@ export const Credits = () => {
       <ul className="w-full list-disc pl-8 text-lg">
         {credits.map((credit) => (
           <li key={credit.name}>
-            <a href={credit.link} className="hover:underline">
+            <a href={credit.link} className="hover:underline" target="_blank" rel="noopener noreferrer">
               {credit.name}
             </a>
           </li>
