@@ -13,7 +13,7 @@ export const Credits = () => {
   return (
     <section className="flex w-full flex-col justify-center px-0 md:px-2">
       <h2 className="pb-8 text-2xl font-bold">Credits</h2>
-      <p className="mb-2 text-lg">Beberapa sumber data yang dipakai:</p>
+      <p className="mb-2 text-lg">Beberapa sumber data / tools yang dipakai:</p>
       <ul className="w-full list-disc pl-8 text-lg">
         {credits.map((credit) => (
           <li key={credit.name}>
