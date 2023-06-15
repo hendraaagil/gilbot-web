@@ -19,6 +19,10 @@ const commands = [
 export const Features = () => {
   return (
     <section className="flex w-full flex-col justify-center space-y-8 px-0 md:px-2">
+      <p>
+        <strong>GilBot</strong> adalah bot WhatsApp yang bisa menjalankan beberapa perintah melalui chat. Seperti
+        membuat stiker, download video TikTok / Instagram, dan masih banyak lagi. Chat dengan GilBot sekarang! 🤘
+      </p>
       <h2 className="text-2xl font-bold">Daftar Perintah</h2>
       <ol className="w-full list-decimal pl-8 text-lg">
         {commands.map((command) => (

@@ -14,7 +14,8 @@ export default ({ mode }) => {
           data: {
             siteUrl: env.VITE_SITE_URL,
             title: 'GilBot',
-            description: 'Chat dengan GilBot sekarang! 🤘',
+            description:
+              'GilBot adalah bot WhatsApp yang bisa menjalankan beberapa perintah melalui chat. Seperti membuat stiker, download video TikTok / Instagram, dan masih banyak lagi. Chat dengan GilBot sekarang! 🤘',
           },
         },
       }),
