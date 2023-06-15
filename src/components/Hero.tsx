@@ -1,10 +1,13 @@
+'use client'
+
+import Image from 'next/image'
 import { HiArrowSmallDown, HiChatBubbleBottomCenterText } from 'react-icons/hi2'
-import avatar from '../assets/avatar.jpg'
+import avatar from '@/assets/avatar.jpg'
 
 export const Hero = () => {
   return (
     <section className="flex min-h-screen w-full flex-col items-center justify-center space-y-8">
-      <img
+      <Image
         src={avatar}
         alt="Avatar"
         className="pointer-events-none min-w-0 max-w-[200px] rounded-full border-8 shadow md:max-w-xs"

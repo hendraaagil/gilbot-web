@@ -1,6 +1,6 @@
-import { Credits, Features, Footer, Hero } from './components'
+import { Credits, Features, Footer, Hero } from '@/components'
 
-function App() {
+export default function Home() {
   return (
     <div className="to flex min-h-screen flex-col items-center justify-center bg-green-700 bg-gradient-to-br from-green-400 text-white">
       <main className="flex w-full max-w-5xl flex-col items-center justify-center space-y-8 px-2 pb-8 md:px-8">
@@ -15,5 +15,3 @@ function App() {
     </div>
   )
 }
-
-export default App
