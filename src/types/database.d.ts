@@ -66,6 +66,30 @@ export interface Database {
         }
         Relationships: []
       }
+      credits: {
+        Row: {
+          created_at: string
+          id: number
+          link: string
+          name: string
+          position: number
+        }
+        Insert: {
+          created_at?: string
+          id?: number
+          link: string
+          name: string
+          position?: number
+        }
+        Update: {
+          created_at?: string
+          id?: number
+          link?: string
+          name?: string
+          position?: number
+        }
+        Relationships: []
+      }
       current_commands: {
         Row: {
           command_id: number | null

@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,html,css,md,json}\""
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.25.0",
