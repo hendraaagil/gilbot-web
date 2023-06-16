@@ -1,22 +1,16 @@
-const commands = [
-  { name: 'menu', description: 'menampilkan daftar perintah bot' },
-  { name: 'ping', description: 'ping bot' },
-  { name: 'kucing', description: 'minta gambar kucing' },
-  { name: 'quote', description: 'minta quote bang' },
-  { name: 'receh', description: 'minta receh bang' },
-  { name: 'sholat', description: 'cari jadwal sholat berdasarkan lokasi' },
-  { name: 'hitung', description: 'menghitung operasi matematika sederhana' },
-  { name: 'stiker', description: 'membuat stiker dari gambar / gif / video' },
-  { name: 'qr', description: 'membuat QR dari teks / link' },
-  { name: 'insta', description: 'download video / reel / gambar Instagram' },
-  { name: 'tiktok', description: 'download video TikTok tanpa watermark' },
-  { name: 'rangkum', description: 'merangkum video YouTube ke dalam teks bahasa inggris' },
-  { name: 'mahasiswa', description: 'cari data mahasiswa berdasarkan nama' },
-  { name: 'bagikan', description: 'berikan link bot ini kepada yang membutuhkan' },
-  { name: 'tentang', description: 'menampilkan informasi pembuat bot' },
-]
+import { supabase } from '@/libs/supabase'
 
-export const Features = () => {
+const getFeatures = async () => {
+  const { data } = await supabase
+    .from('commands')
+    .select('id, name, description, position')
+    .order('position', { ascending: true })
+  return data
+}
+
+export const Features = async () => {
+  const features = await getFeatures()
+
   return (
     <section className="flex w-full flex-col justify-center space-y-8 px-0 md:px-2">
       <p>
@@ -25,9 +19,9 @@ export const Features = () => {
       </p>
       <h2 className="text-2xl font-bold">Daftar Perintah</h2>
       <ol className="w-full list-decimal pl-8 text-lg">
-        {commands.map((command) => (
-          <li key={command.name}>
-            <strong>/{command.name}</strong>, {command.description}.
+        {features?.map((feature) => (
+          <li key={feature.name}>
+            <strong>/{feature.name}</strong>, {feature.description}.
           </li>
         ))}
       </ol>
