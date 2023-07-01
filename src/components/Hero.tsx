@@ -22,6 +22,13 @@ export const Hero = () => {
         <HiChatBubbleBottomCenterText className="mr-2" />
         Chat
       </button>
+      <p className="mt-2">
+        * Jangan lupa baca{' '}
+        <a href="/rules" className="font-medium hover:underline">
+          /rules
+        </a>
+        .
+      </p>
       <div className="absolute bottom-4 animate-bounce rounded-full bg-white p-3 text-2xl font-bold text-green-700 shadow">
         <HiArrowSmallDown />
       </div>

@@ -7,9 +7,14 @@ export const Footer = () => {
           Hendra Agil
         </a>
       </p>
-      <a href="/source" className="hover:underline">
-        /source
-      </a>
+      <div className="flex space-x-2">
+        <a href="/rules" className="hover:underline">
+          /rules
+        </a>
+        <a href="/source" className="hover:underline">
+          /source
+        </a>
+      </div>
     </footer>
   )
 }

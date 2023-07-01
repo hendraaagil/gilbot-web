@@ -12,7 +12,10 @@ const description =
 
 export const metadata: Metadata = {
   metadataBase: siteUrl,
-  title: title,
+  title: {
+    default: title,
+    template: `%s - ${title}`,
+  },
   description: description,
   alternates: { canonical: siteUrl },
   openGraph: {
@@ -35,7 +38,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           />
         )}
       </head>
-      <body className={plusJakarta.className}>{children}</body>
+      <body className={plusJakarta.className}>
+        <div className="to flex min-h-screen flex-col items-center justify-center bg-green-700 bg-gradient-to-br from-green-400 text-white">
+          <main className="flex w-full max-w-5xl flex-col items-center justify-center space-y-8 px-2 pb-8 md:px-8">
+            {children}
+          </main>
+        </div>
+      </body>
     </html>
   )
 }
