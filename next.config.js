@@ -11,6 +11,11 @@ const nextConfig = {
       source: '/chat',
       permanent: false,
     },
+    {
+      destination: 'https://t.me/hendraaagil',
+      source: '/support',
+      permanent: false,
+    },
   ],
 }
 
