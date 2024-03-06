@@ -9,7 +9,7 @@ const Announcement = () => (
     <Dialog.Portal>
       <Dialog.Overlay className="fixed inset-0 bg-slate-700 bg-opacity-75 backdrop-blur data-[state=open]:animate-overlayShow" />
 
-      <Dialog.Content className="fixed left-1/2 top-1/2 w-full max-w-2xl -translate-x-1/2 -translate-y-1/2 p-2 focus:outline-none data-[state=open]:animate-contentShow">
+      <Dialog.Content className="fixed left-1/2 top-1/2 max-h-screen w-full max-w-2xl -translate-x-1/2 -translate-y-1/2 overflow-auto p-2 focus:outline-none data-[state=open]:animate-contentShow">
         <div className="rounded border-4 bg-green-600 bg-gradient-to-br from-green-700 p-4 text-white shadow">
           <Dialog.Title className="py-2 text-center text-2xl font-bold">GilBot Pamit dari WhatsApp 👋</Dialog.Title>
 
@@ -17,7 +17,7 @@ const Announcement = () => (
             <div className="space-y-4">
               <Image
                 src="/ban.jpg"
-                alt="Screenshot of WhatsApp ban"
+                alt="Screenshot of WhatsApp spam"
                 width={192}
                 height={376}
                 className="mx-auto border border-green-500"
