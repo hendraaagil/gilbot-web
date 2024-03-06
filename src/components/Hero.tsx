@@ -17,7 +17,7 @@ export const Hero = () => {
       <button
         className="flex items-center rounded bg-green-700 px-4 py-3 text-xl font-bold transition-transform hover:scale-95"
         data-umami-event="Chat Button"
-        onClick={() => window.open('/chat', '_blank', 'noopener, noreferrer')}
+        onClick={() => window.location.reload()}
       >
         <HiChatBubbleBottomCenterText className="mr-2" />
         Chat
