@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from 'next/link'
 
 export default function HomePage() {
   return (
@@ -8,12 +8,12 @@ export default function HomePage() {
         You can open{' '}
         <Link
           href="/docs"
-          className="text-fd-foreground font-semibold underline"
+          className="font-semibold text-fd-foreground underline"
         >
           /docs
         </Link>{' '}
         and see the documentation.
       </p>
     </main>
-  );
+  )
 }
