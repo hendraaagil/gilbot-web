@@ -1,7 +1,11 @@
 import './global.css'
+import type { ReactNode } from 'react'
+
 import { RootProvider } from 'fumadocs-ui/provider'
 import { Inter } from 'next/font/google'
-import type { ReactNode } from 'react'
+import { createMetadata } from '@/lib/metadata'
+
+export const metadata = createMetadata()
 
 const inter = Inter({
   subsets: ['latin'],
