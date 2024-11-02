@@ -9,5 +9,5 @@ export default {
     './mdx-components.{ts,tsx}',
     './node_modules/fumadocs-ui/dist/**/*.js',
   ],
-  presets: [createPreset({ preset: 'neutral' })],
+  presets: [createPreset({ preset: 'neutral', layoutWidth: '1400px' })],
 }

@@ -10,10 +10,16 @@ import type { BaseLayoutProps } from 'fumadocs-ui/layouts/shared'
 export const baseOptions: BaseLayoutProps = {
   nav: {
     title: 'GilBot',
+    enableSearch: false,
   },
   links: [
     {
-      text: 'Documentation',
+      text: 'Blog',
+      url: '/blog',
+      active: 'nested-url',
+    },
+    {
+      text: 'Docs',
       url: '/docs',
       active: 'nested-url',
     },
