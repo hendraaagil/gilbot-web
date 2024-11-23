@@ -24,7 +24,7 @@ export default function HomePage() {
       <a
         href="/chat"
         className={clsx(
-          'flex items-center justify-center space-x-2',
+          'mb-8 flex items-center justify-center space-x-2',
           'w-full rounded-md border bg-blue-600 py-4 text-center text-lg text-white transition-colors duration-1000',
           'hover:bg-blue-700',
         )}
