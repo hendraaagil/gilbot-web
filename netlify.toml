@@ -1,0 +1,5 @@
+[[redirects]]
+from = "/*"
+to = "https://bot.aglabs.id"
+status = 301
+force = true
